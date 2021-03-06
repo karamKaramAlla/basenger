@@ -8,7 +8,7 @@ from flask_login        import LoginManager,UserMixin,login_user,current_user,lo
 
 app=Flask(__name__)
 app.config['SECRET_KEY']='3bb2be46'
-app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///database.db'
+app.config['0']='sqlite:///database.db'
 sqlite=SQLAlchemy(app)
 login=LoginManager(app)
 bcrypt=Bcrypt(app)
